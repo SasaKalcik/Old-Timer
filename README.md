@@ -38,6 +38,9 @@ Complete list of Old Timer's "electronic guts":
 
 ## Wiring 
 
+For ease the wiring can be split down into serveral parts:
+
+### RGB LED Matrix 
 ![Alt text](/Old_Timer_wiring_diagram.png "Old Timer wiring diagram")
 
 ## Code
