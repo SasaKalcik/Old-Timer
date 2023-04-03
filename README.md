@@ -30,7 +30,7 @@ Complete list of Old Timer's "electronic guts":
 
 3D printed case assembly parts:
 
-- 3D printed case parts
+- 3D printed case 
 - 19 x (M3 x 10 mm) screw bolts 
 - 6 x (M4 x 15 mm) screw bolts
 - 6 x (M4 9 mm diameter) flat washers 
