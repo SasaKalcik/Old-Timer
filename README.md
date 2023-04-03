@@ -40,6 +40,8 @@ Complete list of Old Timer's "electronic guts":
 
 ## Wiring 
 
+![Alt text](/Old_Timer_wiring_diagram.png "Old Timer wiring diagram")
+
 For ease the wiring can be split down into serveral parts:
 
 ### power supply
@@ -52,7 +54,7 @@ This projects requires a 5V/4A DC power supply. However, for testing the Arduino
 
 ### DFPlayer mini MP3 player
 
-![Alt text](/Old_Timer_wiring_diagram.png "Old Timer wiring diagram")
+
 
 ## Code
 
