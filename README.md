@@ -38,6 +38,8 @@ Complete list of Old Timer's "electronic guts":
 
 ## 3D printed case
 
+![Alt text](/3D_printed_case_Exploded_view.png "Exploded view of 3D printed case")
+
 ## Wiring 
 
 ![Alt text](/Old_Timer_wiring_diagram.png "Old Timer wiring diagram")
