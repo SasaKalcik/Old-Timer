@@ -38,7 +38,7 @@ Complete list of Old Timer's "electronic guts":
 
 ## 3D printed case
 
-<img src="https://github.com/SasaKalcik/Old-Timer/blob/main/3D_printed_case_Exploded_view.png" alt="exploded view of 3D printed case" width="50%"/>
+![image](/3D_printed_case_Exploded_view.png "exploded view of 3D printed case")
 
 ## Wiring 
 
