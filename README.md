@@ -37,4 +37,4 @@ Complete list of Old Timer's "electronic guts":
 - 6 x M4 hex nuts
 
 ## Wiring 
-img src="/path/to/img.jpg" alt="Alt text" title="Optional title">
+img src="/Old-Timer/Old_Timer_wiring_diagram.png" alt="Alt text" title="Optional title">
