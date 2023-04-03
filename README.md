@@ -36,11 +36,22 @@ Complete list of Old Timer's "electronic guts":
 - 6 x (M4 9 mm diameter) flat washers 
 - 6 x M4 hex nuts
 
+## 3D printed case
+
 ## Wiring 
 
 For ease the wiring can be split down into serveral parts:
 
+### power supply
+This projects requires a 5V/4A DC power supply. However, for testing the Arduino controller board can be powered directly from a computer using an USB connector, wihtout an external power supply. An ON/OFF toggle round rocker switch is added to switch the power supply on and off. 
+
 ### RGB LED Matrix 
+
+
+### Interrupts: rotary enocoder and push buttons
+
+### DFPlayer mini MP3 player
+
 ![Alt text](/Old_Timer_wiring_diagram.png "Old Timer wiring diagram")
 
 ## Code
