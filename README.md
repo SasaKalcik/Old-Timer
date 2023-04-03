@@ -50,7 +50,7 @@ The 64x64 RGB LED matrix alone requires a 5V regulated power input and 4A with a
 ### RGB LED Matrix 
 The 64x64 RGB LED Matrix Panel has 4096 full-color RGB LEDs, which can be controlled independently. These kind of displays are designed to be driven by FPGAs (field-programmable gate arrays) and dont have any built in pulse-width modulation control. An Arduino MEGA 2560 R3 Controller Board is used since the RGB LED display needs 13 GPIOs (general-purpose input/output pins) to be controlled. Other microcontrollers (Raspberry Pi) with large enough speed and memory can be used. The Mega 2560 works great for this project, but higher speed controllers are needed to drive this display in "full glory". Alternatively smaller LED Matrix displays are available (for example a 1024 bright RGB LED display on a 32x32 grid). The matrix panel has two IDC (insulation-displacement contact) connectors DATA IN and DATA OUT to cascade displays. The Arduino isn't powerful enough however to control larger displays.
 
-DATA IN IDC signal pins connected to MEGA2560:
+DATA IN IDC signal pins connected to Arduino MEGA 2560:
 
 - R1  ->  24  |   G1  ->  25
 - B1  ->  26  |   GND ->  GND
