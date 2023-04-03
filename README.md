@@ -61,17 +61,9 @@ DATA_IN IDC signal pins connected to MEGA2560:
 - CLK ->  11  |   LAT ->  10
 - OE  ->  9   |   GND ->  GND
 
-Control signal pin connected to MEGA2560:
-
-
-
-
-OE-> 9 LAT-> 10 CLK-> 11
-
-GND-> GND
 Power interface:
--
--
+- 2 x 5V -> DC power supply positive
+- 2 x GND -> DC power supply negative
 
 
 ### Interrupts: rotary enocoder and push buttons
