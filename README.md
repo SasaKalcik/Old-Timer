@@ -26,7 +26,7 @@ Complete list of Old Timer's "electronic guts":
 - 1 x mini push button
 - 1 x ON/OFF toggle round rocker switch 
 - 1 x 1 k&Omega; resistor
-- Dupont jumper wires
+- DuPont cables
 
 3D printed case assembly parts:
 
