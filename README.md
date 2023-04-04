@@ -123,7 +123,7 @@ Detailed comments are provided in the code, but I'll quickly run throught the co
 - library for I2C communication: [Wire.h](https://www.arduino.cc/reference/en/language/functions/communication/wire/)
 - library for calculation: [math.h](https://www.tutorialspoint.com/arduino/arduino_math_library.htm)
 
-The *loop()* function waits for interrupts from the rotary encoder : *read_encoder()* and *buttonPush_encoder()*. And checks whether the cursor postion is changed: *refreshMATRIX == true* through rotation of the encoder. Or the loop checks for the selection of a menu item due to a button push: *refreshSelection == true*.
+The *loop()* function waits for interrupts from the rotary encoder : *read_encoder()* and *buttonPush_encoder()*. And checks whether the cursor postion is changed through rotation of the encoder: *refreshMATRIX == true*. Or the loop checks for the selection of a menu item due to a button push: *refreshSelection == true*.
 
 ```ruby
 void loop() 
@@ -131,9 +131,9 @@ void loop()
   if(refreshMATRIX == true) 
   {
     updateMATRIX(); 
-    if(menu_RESTm_selected == true...)
+    if(menu_RESTm_selected == true...) //refresh cursor on interrupt 
     {
-     // do nothing
+     // do nothing if no menu item is selected
     }
     else
     {
@@ -142,7 +142,7 @@ void loop()
     refreshMATRIX = false; 
   }
 
-  if(refreshSelection == true) 
+  if(refreshSelection == true) //refresh selection on interrupt
   {
     updateSelection(); 
     refreshSelection = false; 
