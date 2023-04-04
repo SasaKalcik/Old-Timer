@@ -81,12 +81,14 @@ The pins on the DFPlayer are not indicated so be mindful of the orientation. The
 
 The DFPLayer pins connected to the Arduino:
 
-- VCC   ->  5V
-- RX    ->  52  (add 1 k&Omega; resistor)
-- TX    ->  53
-- SPK1  ->  SPK+
-- GND   ->  GND
-- SPK2  ->  SPK-
+|DFLPLayer|Arduino|
+|---|---|
+|VCC|5V|
+|RX|52|
+|TX|53|
+|SPK1|SPK+|
+|GND|GND|
+|SPK2|SPK-|
 
 ## Code
 
