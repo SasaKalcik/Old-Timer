@@ -71,7 +71,19 @@ Power interface:
 
 ### DFPlayer mini MP3 player
 
+The DFPlayer is a MP3 player module with a TF card/MicroSD slot. The MP3 player can be powered by the 3.3 V or 5 V output of the Arduino. After testing three DFPlayer modules in a mono circuit setup I found that the MP3 player modules don't work reliably with 3.3 V input. With 5 V input, the Arduino doesn't seem to provide enough current when changing the volume to max. I've ordered and tested three MP3 modules. Two modules worked fine, one was faulty. An external power supply with a max voltage of 5 V is ideal to reduce noise and increase the power from the speaker. However it is not necessary since the MP3 player won't be operating at max volume for an extented period of time in this project. I would recommend ordering a few MP3 player modules to serve as backup, since they are very cheap. 
 
+The pins on the DFPlayer are not indicated so be mindful of the orientation. The signal pins of the DFPlayer mini module are not 5V tolerant so a voltage divider (1 k&Omega; resistor) is added between the RX signal pin and the Arduino. 
+
+The DFPLayer pins connected to the Arduino:
+
+- VCC   ->  5V
+- RX    ->  52  (1 k&Omega; resistor)
+- TX    ->  53
+- SPK1  ->  SPK+
+- GND   ->  GND
+- SPK2  ->  SPK-
+ 
 
 ## Code
 
