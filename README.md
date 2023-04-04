@@ -131,7 +131,7 @@ void loop()
   if(refreshMATRIX == true) 
   {
     updateMATRIX(); 
-    if(menu_RESTm_selected == true...) //refresh cursor on interrupt 
+    if(menu_RESTm_selected == true...) // refresh cursor on interrupt 
     {
      // do nothing if no menu item is selected
     }
@@ -142,7 +142,7 @@ void loop()
     refreshMATRIX = false; 
   }
 
-  if(refreshSelection == true) //refresh selection on interrupt
+  if(refreshSelection == true) // refresh selection on interrupt
   {
     updateSelection(); 
     refreshSelection = false; 
