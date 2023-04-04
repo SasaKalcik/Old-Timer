@@ -3,6 +3,8 @@
 ## 3D printed Arduino based interval timer display
 Old Timer is a 3D printed wall mountable interval timer, intented for HIIT (High Intensity Interval Training). This is a DIY-project for a 64x64 RGB LED matrix display with a speaker and an interface, powered by an Arduino microcontroller board.
 
+![image](/Old_Timer.png.png "Old Timer")
+
 ## Hardware
 This project started out with parts from an Arduino starter kit, 3D printed parts and a 64x64 RGB LED matrix. For an affordable minimalistic parts list (without the 3D printed case) I would recommend the following:
 
