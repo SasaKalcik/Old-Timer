@@ -38,7 +38,7 @@ The 3D printed case printed with PLA filament is split into a top and lower part
 
 3D printed case assembly parts:
 
-- 8 x 3D printed parts 
+- [8 x 3D printed parts](/STL_files) 
 - 23 x (M3 x 10 mm) screw bolts 
 - 6 x (M4 x 15 mm) screw bolts
 - 6 x (M4 9 mm diameter) flat washers 
