@@ -104,7 +104,7 @@ The DFPLayer pins connected to the Arduino:
 
 ## Code
 
-The [code](/Old_Timer.ino) for the interval timer is for a menu system. [Here]() is a video of the Old Timer in action. 
+The [code](/Old_Timer.ino) for the interval timer is for a menu system. [Here](https://youtu.be/OxGpQ27moh4) is a video of the Old Timer in action. 
 
 When turned on a startup animation plays and a menu is displayed. In this menu you can set the following:
 
