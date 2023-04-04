@@ -30,12 +30,12 @@ Complete list of Old Timer's "electronic guts":
 
 ## 3D printed case
 
-The 3D printed case is split into a top and lower part since the printbed I used is 220x220 mm. The top part is connected with the matrix display with 6 (M3 x 10 mm) screw bolts (red dots in the picture). The matrix display provides the structural strength, so the case walls can be very thin (2 - 3 mm). The lower body containing the speaker and buttons can be swapped/upgraded in the future. The bottom and top bodies are connected with 6 (M4 x 15 mm) screw bolts and M4 hex nuts (blue dots in the picture). The case is sealed with two covers which can be screwed on using 8 (M3 x 10 mm) bolts.
+The 3D printed case printed with PLA filament is split into a top and lower part since the printbed I used is 220x220 mm. The top part is connected with the matrix display with 6 (M3 x 10 mm) screw bolts (red dots in the picture). The matrix display provides the structural strength, so the case walls can be very thin (2 - 3 mm). The lower body containing the speaker and buttons can be swapped/upgraded in the future. The bottom and top bodies are connected with 6 (M4 x 15 mm) screw bolts and M4 hex nuts (green dots in the picture). The case is sealed with two covers which can be screwed on using 8 (M3 x 10 mm) bolts (red dots in the picture). There is a mount for the Arduino board and a cover for the speaker which also can be fastened with (M3 x 10 mm) screw bolts.
 
 3D printed case assembly parts:
 
 - 11 x 3D printed parts 
-- 19 x (M3 x 10 mm) screw bolts 
+- 23 x (M3 x 10 mm) screw bolts 
 - 6 x (M4 x 15 mm) screw bolts
 - 6 x (M4 9 mm diameter) flat washers 
 - 6 x M4 hex nuts
