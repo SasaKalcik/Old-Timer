@@ -157,3 +157,13 @@ The functions: *updateCursorPosition()*, *updateSelection* and *updateMATRIX* th
 Finally I have written functions which display time (*printTime*), loading bars (*loadingBar*), the full interval cycle (*intervalTimerScreen*) and text (*displayText*). These function use the DFRobot_RGBMatrix grahpics library and comments are provided in the [code](/Old_Timer.ino).
 
 ## Credits and References
+
+This project wouldn't have been possible without the amazing tutorials and projects available online. So I would like to thank everyone for all the great idea's and information. I'm happy to share their links as a shout-out:
+
+[Wiring DFPlayer Mini](https://circuitjournal.com/how-to-use-the-dfplayer-mini-mp3-module-with-an-arduino)
+
+[DFR0499 64x64 RGB LED matrix](https://wiki.dfrobot.com/64x64_RGB_LED_Matrix_-_3mm_pitch_SKU_DFR0499)
+
+[Advanced menu system with rotary encoder for Arduino/STM32](https://www.youtube.com/watch?v=CnS0PuDJybA&t=323s&ab_channel=CuriousScientist)
+
+[Arduino Button Debounce Tutorial](https://www.youtube.com/watch?v=jYOYgU2vlSE&ab_channel=educ8s.tv)
