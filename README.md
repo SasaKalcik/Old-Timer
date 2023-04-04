@@ -44,7 +44,7 @@ Complete list of Old Timer's "electronic guts":
 
 ![image](/Old_Timer_wiring_diagram.png "Old Timer wiring diagram")
 
-For ease the wiring can be split down into serveral parts:
+For clarity the wiring can be split down into serveral parts:
 
 ### Power supply
 The 64x64 RGB LED matrix alone requires a 5 V regulated DC power input and 4 A with all LEDs on at full brightness. However, a 5V 4A is sufficient to power to entire setup. For testing, the Arduino controller board can be powered directly from a computer using an USB connector without an external power supply. An ON/OFF toggle round rocker switch is added to switch the power supply on and off. 
@@ -55,7 +55,7 @@ The 64x64 RGB LED Matrix Panel has 4096 full-color RGB LEDs, which can be contro
 DATA IN IDC signal pins connected to Arduino MEGA 2560, L if left and R is right side of connector pins:
 
 |DATA IN L|Arduino pins| DATA IN R|Arduino pins|
-|---|---|---|---|
+|:---:|:---:|:---:|:---:|
 |R1|24|G1|25|
 |B1|26|GND|GND|
 |R2|27|G2|28|
@@ -67,7 +67,7 @@ DATA IN IDC signal pins connected to Arduino MEGA 2560, L if left and R is right
 
 Power interface:
 |RGB LED Matrix|AC-DC power adapter|
-|---|---|
+|:---:|:---:|
 |2 x +5V | positive terminal|
 |2 x GND | negative terminal|
 
@@ -75,18 +75,9 @@ Power interface:
 
 The interface of the interval timer is a rotary encoder and a push switches. The rotart enocoder has a built in push switch, which is used to navigate the menu. A mini tactile switch serves to pause the interval timer. Both inputs are connect via interrupt pins to the Arduino. Pins 2,3,18,19,20,21 can be used on the Arduino Mega 2560 as external interrupt pins.
 
-|rotary encoder pins|Arduino|
-|---|---|
-|CLK|18|
-|DT|19|
-|SW|20|
-|VCC|5V|
-|GND|GND|
-
-|mini push switch|Arduino|
-|---|---|
-|HIGH|21|
-|GND|GND|
+|rotary encoder|mini push switch|
+|--|--|
+|<table> <tr><th>pin</th><th>Arduino</th></tr><tr><td>CLK</td><td>18</td></tr><tr><td>DT</td><td>19</td></tr><tr><td>SW</td><td>20</td></tr><tr><td>VCC</td><td>5V</td></tr><tr><td>GND</td><td>GND</td></tr></table>|<table><tr><th>pin</th><th>Arduino</th></tr><tr><td>HIGH</td><td>21</td></tr><tr><td>GND</td><td>GND</td></tr></table>|
 
 ### DFPlayer mini MP3 player
 
@@ -97,7 +88,7 @@ The pins on the DFPlayer are not indicated so be mindful of the orientation. The
 The DFPLayer pins connected to the Arduino:
 
 |DFLPLayer|Arduino|
-|---|---|
+|:---:|:---:|
 |VCC|5V|
 |RX|52|
 |TX|53|
