@@ -150,4 +150,8 @@ void loop()
 }
 ```
 
+The functions: *updateCursorPosition()*, *updateSelection* and *updateMATRIX* then update the display by updating a part of the screen. The display resfreshes much smoother by updating parts of the matrix than rewriting the entire screen, since these RGB LED matrix displays usually are driven by FPGAs. 
+
+Finally I have written functions which display time (*printTime*), loading bars (*loadingBar*), the full interval cycle (*intervalTimerScreen*) and text(*displayText*). These function use the DFRobot_RGBMatrix grahpics library.
+
 ## Credits and References
