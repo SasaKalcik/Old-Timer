@@ -17,7 +17,7 @@ Complete list of Old Timer's "electronic guts":
 - 1 x AC-DC power adapter 5.0 V / 4.0 A  
 - 1 x Female DC Threaded Barrel Jack Panel Adapter (or any connector suitable for plug of AC-DC power adapter)
 - 1 x MEGA 2560 R3 Controller Board
-- 1 x Prototype Shield Board Kit for Arduino Mega *
+- 1 x Prototype Shield Board Kit for Arduino Mega \*
 - 1 x (64x64) RGB LED matrix 
 - 1 x DFPlayer mini MP3 player
 - 1 x TF-card (DFPlayer supports up to: 32 GB)
@@ -28,7 +28,7 @@ Complete list of Old Timer's "electronic guts":
 - 1 x 1 k&Omega; resistor
 - DuPont cables
 
-*Note: The stock shield board kit for the Arduino Mega has female pins for DuPont cable connections. These can be desoldered and replaced with male pin connectors, since the DATA IN cable of the RGB LED matrix board comes with female to female pins cable. Alternatively you can use DuPont cable connections and ommit the shield altogether. Also the FDPlayer can be mounted on the shield.*
+\* *Note: The stock shield board kit for the Arduino Mega has female pins for DuPont cable connections. These can be desoldered and replaced with male pin connectors, since the DATA IN cable of the RGB LED matrix board comes with a female to female pin cable. Alternatively you can use DuPont cable connections and ommit the shield altogether. Also the FDPlayer can be mounted on the shield.*
 
 ## 3D printed case
 
