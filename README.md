@@ -108,24 +108,27 @@ The [code](/Old_Timer.ino) for the interval timer is for a menu system. [Here]()
 
 When turned on a startup animation plays and a menu is displayed. In this menu you can set the following:
 
-- UP-time, interval duration of workout in minutes and seconds
-- REST-times, interval duration of rest in minutes and seconds
-- SETS, the number of sets the UP and REST time cycles repeat
-- Volume of the speaker from muted to max volume (0 - 30)
+- UP, duration of workout in minutes and seconds
+- REST, duration of rest in minutes and seconds
+- SETS, the number of sets of UP/REST 
+- Volume of the speaker (0 - 30)
 
-After the settings are set, the interval scheme can be started with a menu-start button. And after the interval cycles the display returns to the selection menu. Detailed comments are provided in the code, but I'll quickly run throught the code.
+After the everything is set, START is pressed --> interval cycles are run --> return to the selection menu. 
 
-You will need several libraries for the display and MP3 player:
+Detailed comments are provided in the code, but I'll quickly run throught the code. You will need several libraries for the display and MP3 player:
 
-- Graphics library for the RGB LED matrix: [DFRobot_RGBMatrix](https://github.com/DFRobot/DFRobot_RGBMatrix)
-- library for MP3 player: [DFRobotDFPlayerMini](https://github.com/DFRobot/DFRobotDFPlayerMini)  
+- Graphics library for the RGB LED matrix: [DFRobot_RGBMatrix.h](https://github.com/DFRobot/DFRobot_RGBMatrix)
+- library for MP3 player: [DFRobotDFPlayerMini.h](https://github.com/DFRobot/DFRobotDFPlayerMini)  
+- library for serial communication: [SoftwareSerial.h] (https://docs.arduino.cc/learn/built-in-libraries/software-serial)
+- library for I2C communication: [Wire.h] (https://www.arduino.cc/reference/en/language/functions/communication/wire/)
+- library for calculation: [math.h] (https://www.tutorialspoint.com/arduino/arduino_math_library.htm)
 
-First the display, MP3 player and interrupt pins are initialized and a startup animation screen: *displayStartScreen()* is displayed in the *setup()* function. 
+The 
+
 
 ```ruby
 void loop() 
 {
-
   if(refreshMATRIX == true) 
   {
     updateMATRIX(); 
@@ -145,7 +148,6 @@ void loop()
     updateSelection(); 
     refreshSelection = false; 
   }
-  
 }
 ```
 
