@@ -66,8 +66,10 @@ DATA IN IDC signal pins connected to Arduino MEGA 2560, L if left and R is right
 |OE|9|GND|GND|
 
 Power interface:
-- 2 x +5V -> DC power supply positive
-- 2 x GND -> DC power supply negative
+|RGB LED Matrix|AC/AD power adapter|
+|---|---|
+|2 x +5V | positive terminal|
+|2 x GND | negative terminal|
 
 ### Interrupts: rotary enocoder and push buttons
 
