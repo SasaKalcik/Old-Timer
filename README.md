@@ -104,6 +104,37 @@ The DFPLayer pins connected to the Arduino:
 
 ## Code
 
-The [code](/Old_Timer.ino) 
+The [code](/Old_Timer.ino) for the interval timer is for a menu system. First the display, MP3 player and inerrupt pins are initialized and a startup animation is displayed in the *setup()* function.
+
+In the *loop()* function an interval scheme can be set and the volume can be controlled in a menu. Interval settings are set in the menu: UP-time (interval for workout), REST-time (interval for rest) and SETS (number of sets). Also the volume can be adjusted. When the menu-start button is pressed, the interval scheme starts and eventually returns to the selection menu. During the interval scheme the countdown can be paused using the pause button. This is a full cycle of the interval timer.
+
+
+
+```
+void loop() 
+{
+
+  if(refreshMATRIX == true) 
+  {
+    updateMATRIX(); 
+    if(menu_RESTm_selected == true...)
+    {
+     // do nothing
+    }
+    else
+    {
+      updateCursorPosition(); 
+    }
+    refreshMATRIX = false; 
+  }
+
+  if(refreshSelection == true) 
+  {
+    updateSelection(); 
+    refreshSelection = false; 
+  }
+  
+}
+```
 
 ## Credits and References
