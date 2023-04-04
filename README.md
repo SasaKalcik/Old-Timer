@@ -75,7 +75,7 @@ Power interface:
 |2 x +5V | positive terminal|
 |2 x GND | negative terminal|
 
-### Interrupts: rotary enocoder and push buttons
+### Interrupts: rotary encoder and push buttons
 
 The interface of the interval timer is a rotary encoder and a push switches. The rotart enocoder has a built in push switch, which is used to navigate the menu. A mini tactile switch serves to pause the interval timer. Both inputs are connect via interrupt pins to the Arduino. Pins 2,3,18,19,20,21 can be used on the Arduino Mega 2560 as external interrupt pins.
 
