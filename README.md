@@ -47,7 +47,7 @@ Complete list of Old Timer's "electronic guts":
 For ease the wiring can be split down into serveral parts:
 
 ### Power supply
-The 64x64 RGB LED matrix alone requires a 5V regulated DC power input and 4A with all LEDs on at full brightness. However, a 5V 4A is sufficient to power to entire setup. For testing, the Arduino controller board can be powered directly from a computer using an USB connector without an external power supply. An ON/OFF toggle round rocker switch is added to switch the power supply on and off. 
+The 64x64 RGB LED matrix alone requires a 5 V regulated DC power input and 4 A with all LEDs on at full brightness. However, a 5V 4A is sufficient to power to entire setup. For testing, the Arduino controller board can be powered directly from a computer using an USB connector without an external power supply. An ON/OFF toggle round rocker switch is added to switch the power supply on and off. 
 
 ### RGB LED Matrix 
 The 64x64 RGB LED Matrix Panel has 4096 full-color RGB LEDs, which can be controlled independently. These kind of displays are designed to be driven by FPGAs (field-programmable gate arrays) and dont have any built in pulse-width modulation control. An Arduino MEGA 2560 R3 Controller Board is used since the RGB LED display needs 13 GPIOs (general-purpose input/output pins) to be controlled. Other microcontrollers (Raspberry Pi) with large enough speed and memory can be used. The Mega 2560 works great for this project, but higher speed controllers are needed to drive this display in "full glory". Alternatively smaller LED Matrix displays are available (for example a 1024 bright RGB LED display on a 32x32 grid). The matrix panel has two IDC (insulation-displacement contact) connectors DATA IN and DATA OUT to cascade displays. The Arduino isn't powerful enough however to control larger displays.
@@ -72,6 +72,20 @@ Power interface:
 |2 x GND | negative terminal|
 
 ### Interrupts: rotary enocoder and push buttons
+
+The interface of the interval timer is a rotary encoder and a push switches. The rotart enocoder has a built in push switch, which is used to navigate the menu. A mini tactile switch serves to pause the interval timer. Both inputs are connect via interrupt pins to the Arduino. Pins 2,3,18,19,20,21 can be used on the Arduino Mega 2560 as external interrupt pins.
+
+|rotary encoder pins|Arduino|
+|---|---|
+|CLK|18|
+|DT|19|
+|SW|20|
+|VCC|5V|
+|GND|GND|
+
+|mini push switch|Arduino|
+|HIGH|21|
+|GND|GND|
 
 ### DFPlayer mini MP3 player
 
