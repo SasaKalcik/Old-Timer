@@ -28,15 +28,17 @@ Complete list of Old Timer's "electronic guts":
 - 1 x 1 k&Omega; resistor
 - DuPont cables
 
+## 3D printed case
+
+The 3D printed case is split into a top and lower part since the printbed I used is 220x220 mm. The top part is connected with the matrix display with 6 (M3 x 10 mm) screw bolts (red dots in the picture). The matrix display provides the structural strength, so the case walls can be very thin (2 - 3 mm). The lower body containing the speaker and buttons can be swapped/upgraded in the future. The bottom and top bodies are connected with 6 (M4 x 15 mm) screw bolts and M4 hex nuts (blue dots in the picture). The case is sealed with two covers which can be screwed on using 8 (M3 x 10 mm) bolts.
+
 3D printed case assembly parts:
 
-- 3D printed case 
+- 11 x 3D printed parts 
 - 19 x (M3 x 10 mm) screw bolts 
 - 6 x (M4 x 15 mm) screw bolts
 - 6 x (M4 9 mm diameter) flat washers 
 - 6 x M4 hex nuts
-
-## 3D printed case
 
 ![image](/3D_printed_case_Exploded_view.png "exploded view of 3D printed case")
 
