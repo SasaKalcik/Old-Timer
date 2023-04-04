@@ -66,7 +66,7 @@ DATA IN IDC signal pins connected to Arduino MEGA 2560, L if left and R is right
 |OE|9|GND|GND|
 
 Power interface:
-|RGB LED Matrix|AC/AD power adapter|
+|RGB LED Matrix|AC-DC power adapter|
 |---|---|
 |2 x +5V | positive terminal|
 |2 x GND | negative terminal|
@@ -84,6 +84,7 @@ The interface of the interval timer is a rotary encoder and a push switches. The
 |GND|GND|
 
 |mini push switch|Arduino|
+|---|---|
 |HIGH|21|
 |GND|GND|
 
