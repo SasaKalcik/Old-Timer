@@ -23,7 +23,7 @@ Complete list of Old Timer's "electronic guts":
 - 1 x TF-card (DFPlayer supports up to: 32 GB)
 - 1 x 3 W 8 &Omega; Speaker 
 - 1 x rotary encoder with switch function (on press down)
-- 1 x tactile switch 
+- 1 x tactile switch (6 x 6 x 4.3 mm) 
 - 1 x ON/OFF toggle round rocker switch 
 - 1 x 1 k&Omega; resistor
 - DuPont cables
