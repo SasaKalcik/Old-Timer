@@ -119,12 +119,11 @@ Detailed comments are provided in the code, but I'll quickly run throught the co
 
 - Graphics library for the RGB LED matrix: [DFRobot_RGBMatrix.h](https://github.com/DFRobot/DFRobot_RGBMatrix)
 - library for MP3 player: [DFRobotDFPlayerMini.h](https://github.com/DFRobot/DFRobotDFPlayerMini)  
-- library for serial communication: [SoftwareSerial.h] (https://docs.arduino.cc/learn/built-in-libraries/software-serial)
-- library for I2C communication: [Wire.h] (https://www.arduino.cc/reference/en/language/functions/communication/wire/)
-- library for calculation: [math.h] (https://www.tutorialspoint.com/arduino/arduino_math_library.htm)
+- library for serial communication: [SoftwareSerial.h](https://docs.arduino.cc/learn/built-in-libraries/software-serial)
+- library for I2C communication: [Wire.h](https://www.arduino.cc/reference/en/language/functions/communication/wire/)
+- library for calculation: [math.h](https://www.tutorialspoint.com/arduino/arduino_math_library.htm)
 
-The 
-
+The *loop()* function waits for interrupts from the rotary encoder : *read_encoder()* and *buttonPush_encoder()*. And checks whether the cursor postion is changed: *refreshMATRIX == true* through rotation of the encoder. Or the loop checks for the selection of a menu item due to a button push: *refreshSelection == true*.
 
 ```ruby
 void loop() 
