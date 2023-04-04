@@ -104,13 +104,25 @@ The DFPLayer pins connected to the Arduino:
 
 ## Code
 
-The [code](/Old_Timer.ino) for the interval timer is for a menu system. First the display, MP3 player and inerrupt pins are initialized and a startup animation is displayed in the *setup()* function.
+The [code](/Old_Timer.ino) for the interval timer is for a menu system. [Here]() is a video of the Old Timer in action. 
 
-In the *loop()* function an interval scheme can be set and the volume can be controlled in a menu. Interval settings are set in the menu: UP-time (interval for workout), REST-time (interval for rest) and SETS (number of sets). Also the volume can be adjusted. When the menu-start button is pressed, the interval scheme starts and eventually returns to the selection menu. During the interval scheme the countdown can be paused using the pause button. This is a full cycle of the interval timer.
+When turned on a startup animation plays and a menu is displayed. In this menu you can set the following:
 
+- UP-time, interval duration of workout in minutes and seconds
+- REST-times, interval duration of rest in minutes and seconds
+- SETS, the number of sets the UP and REST time cycles repeat
+- Volume of the speaker from muted to max volume (0 - 30)
 
+After the settings are set, the interval scheme can be started with a menu-start button. And after the interval cycles the display returns to the selection menu. Detailed comments are provided in the code, but I'll quickly run throught the code.
 
-```
+You will need several libraries for the display and MP3 player:
+
+- Graphics library for the RGB LED matrix: [DFRobot_RGBMatrix](https://github.com/DFRobot/DFRobot_RGBMatrix)
+- library for MP3 player: [DFRobotDFPlayerMini](https://github.com/DFRobot/DFRobotDFPlayerMini)  
+
+First the display, MP3 player and interrupt pins are initialized and a startup animation screen: *displayStartScreen()* is displayed in the *setup()* function. 
+
+```ruby
 void loop() 
 {
 
